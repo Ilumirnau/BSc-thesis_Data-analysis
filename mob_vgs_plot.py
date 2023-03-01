@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 25 09:16:01 2022
-
-@author: arnau
-"""
 def SaturationRegime_params(V_g, I_ds, L, W):
     import numpy as np
     sqrtI_ds = [np.sqrt(i) for i in I_ds]
