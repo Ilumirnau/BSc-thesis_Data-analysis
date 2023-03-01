@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  5 15:22:05 2022
-
-@author: arnau
-"""
 #only saturation regimes will be studied
 
 #regression intercept, slope and their uncertainties, r_coef and y_pred for x=V_g and y=I_ds
