@@ -14,7 +14,8 @@ For the Physics thesis, I studied the following electrical properties of the fab
 - Number of traps ($N$)
 
 The file responsible for the extraction of the mobility, is [AutoPlot_mob_and_Vth_inTextFile.py](AutoPlot_mob_and_Vth_inTextFile.py) and it studies linear regressions of the data in every file optimizing the range of data selected and initial point in order to maximize the parameter $R^2$. 
-This task is the least efficient and was used in the different folder with the data to analyze. It creates a `.txt` file called `analysis` with the mobility and thresvold voltage, including the propagated uncertainty.
+This task is the least efficient and was used in the different folder with the data to analyze. It creates a `.txt` file called `analysis` with the mobility and thresvold voltage, including the propagated uncertainty. 
+The file also offers the possibility to plot the data and regression, which allows the fast visualization of the data in the text file.
 
 The file [electrical_characterization_pristine.py](electrical_characterization_pristine.py) is very fast and powerful but requires the data to be organized in folders named after the different parameters studied.
 In the case of my project, I was interested in studying the different values of the aforementioned parameters as a function of the molecule used as a semiconductor, the deposition speed (fabrication parameter), and the transistor channel length and direction with respect to the thin film printing in the fabrication.
